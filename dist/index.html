@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#fff8ef" />
+    <meta name="description" content="یک نامه‌ی کوچک و دوست‌داشتنی برای نارنجوجو" />
+    <title>برای نارنجوجوی من ❤️</title>
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='29' r='20' fill='%23f4bd32'/%3E%3Cpath d='M10 38c2 15 11 22 22 22s20-7 22-22z' fill='%23ff851b'/%3E%3Ccircle cx='25' cy='26' r='2.8' fill='%232b2925'/%3E%3Ccircle cx='39' cy='26' r='2.8' fill='%232b2925'/%3E%3Cpath d='m32 29 4 3-4 3-4-3z' fill='%23ed8b26'/%3E%3C/svg%3E"
+    />
+    <script>document.documentElement.classList.add('js')</script>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="ambient" aria-hidden="true"></div>
+    <main class="experience">
+      <section class="story-card" id="story" aria-label="نامه‌ای برای نارنجوجو">
+        <div class="art-viewport" id="artViewport">
+          <img
+            class="artwork"
+            src="./assets/narangjoojo-letter.png"
+            alt="نارنجوجو، جوجه‌ای گرد داخل پوست نارنگی، کنار نامه‌ای با متن دوستت دارم نارنجوجوی من"
+            width="943"
+            height="1668"
+            fetchpriority="high"
+          />
+          <p class="love-copy" aria-hidden="true">
+            دوستت دارم نارنجوجوی من <span class="love-emoji">❤️</span>
+          </p>
+        </div>
+
+        <button
+          class="letter-trigger"
+          id="letterTrigger"
+          type="button"
+          aria-controls="artViewport"
+          aria-expanded="false"
+        >
+          <span class="mini-envelope" aria-hidden="true">
+            <span class="mini-heart">♥</span>
+          </span>
+          <span class="trigger-label">نامه رو باز کن</span>
+        </button>
+
+        <p class="sr-only" id="loveMessage" aria-live="polite"></p>
+      </section>
+    </main>
+
+    <div class="particle-layer" id="particleLayer" aria-hidden="true"></div>
+  </body>
+</html>
